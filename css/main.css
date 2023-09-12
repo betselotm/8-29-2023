@@ -1,1 +1,9 @@
 /* Place CSS styles here */
+body{
+    font-family: 'Lora', serif;
+    background: #aac3ff;
+}
+.Home-page{
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* if u have two thing that will clash  */
