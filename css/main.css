@@ -5,5 +5,10 @@ body{
 }
 .Home-page{
     font-family: 'Josefin Sans', sans-serif;
+    background: rgb(195, 250, 92);
+}
+.about-page{
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgb(248, 178, 81);
 }
 /* if u have two thing that will clash  */
