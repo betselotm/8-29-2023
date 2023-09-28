@@ -12,3 +12,24 @@ body{
     background: rgb(248, 178, 81);
 }
 /* if u have two thing that will clash  */
+/* media query for phone */
+@media (max-width: 480px) {
+ body { 
+    background-color: blueviolet;
+ }
+}
+
+/* media query for tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+    body { 
+       background-color: olive;
+    }
+   }
+
+   /* media query for desktop */
+@media (min-width: 786px) {
+    body { 
+       background-color: palegreen;
+    }
+   }
+ 
