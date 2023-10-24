@@ -11,11 +11,31 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     background: rgb(248, 178, 81);
 }
+
+/* u can copy and paste media query right under
+ur code to not have to type it multiple times all
+the way at th bottom */
+
+.featuress img{
+ width: 100%;
+ width: 100px;
+}
+
+.column-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
 /* if u have two thing that will clash  */
 /* media query for phone */
 @media (max-width: 480px) {
  body { 
     background-color: blueviolet;
+ }
+ .column-img{
+    display: flex;
+    flex-direction: column;
  }
 }
 
@@ -23,6 +43,10 @@ body{
 @media (min-width: 481px) and (max-width: 767px) {
     body { 
        background-color: olive;
+    }
+    .column-img{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
     }
    }
 
